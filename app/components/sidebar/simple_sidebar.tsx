@@ -4,7 +4,8 @@ import SimpleYouButton from "../button/simple/you";
 import SimpleSubscriptionsButton from "../button/simple/Subscriptions";
 import SimpleHistoryButton from "../button/simple/history";
 import { SidebarProps } from "../utils/sidebar_shared";
-export default function ({ selectedPage, setter }: SidebarProps) {
+
+export default function SimpleSidebar({ selectedPage, setter }: SidebarProps) {
   return (
     <div className="flex flex-col grow-3">
       <SimpleHomeButton

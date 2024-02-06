@@ -1,6 +1,6 @@
 import SimpleButton from "./blueprint";
 
-export default function ({activated, onClick}: { activated: boolean, onClick: () => void }) {
+export default function Home({activated, onClick}: { activated: boolean, onClick: () => void }) {
   return (
     <SimpleButton name="Home" onClick={onClick}>
       <svg

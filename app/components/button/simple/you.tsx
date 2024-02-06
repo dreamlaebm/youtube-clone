@@ -1,6 +1,6 @@
 import SimpleButton from "./blueprint";
 
-export default function ({
+export default function YouButton({
   activated,
   onClick,
 }: {
