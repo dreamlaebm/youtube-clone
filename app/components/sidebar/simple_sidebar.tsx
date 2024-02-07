@@ -6,7 +6,7 @@ import SimpleHistoryButton from "../button/simple/history";
 import { SidebarProps } from "../utils/sidebar_shared";
 export default function ({ selectedPage, setter }: SidebarProps) {
   return (
-    <div className="flex flex-col grow-3">
+    <div className="hidden lg:flex flex-col grow-3">
       <SimpleHomeButton
         activated={0 == selectedPage}
         onClick={() => setter(0)}

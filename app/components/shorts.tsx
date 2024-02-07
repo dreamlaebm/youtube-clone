@@ -141,7 +141,7 @@ export function Short({
 export default function ShortsHolder() {
   return (
     <>
-      <div className="aspect-[9/16] flex-1">
+      <div className="aspect-[9/16] md:p-0 p-4 flex-1">
         <Short
           title={"Test Short Video for you!"}
           publisher={"Dream Leabm"}
